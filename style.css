@@ -1,0 +1,25 @@
+.canvas{
+    display: grid;
+    width: 50%;
+    margin: 75px auto auto;
+}
+
+.canvas > div{
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    aspect-ratio: 1;
+
+}
+body{
+    text-align: center;
+}
+button{
+    margin-top: 75px;
+    background-color: lightskyblue;
+    border-color: royalblue;
+    color:white;
+    font-size: 36px;
+    border-width: medium;
+    border-radius: 15px;
+}
