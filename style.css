@@ -1,7 +1,9 @@
 .canvas{
     display: grid;
-    width: 50%;
-    margin: 75px auto auto;
+    width: 640px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .canvas > div{
@@ -9,6 +11,7 @@
     border-color: darkgray;
     border-width: 1px;
     aspect-ratio: 1;
+    column-gap: 0;
 
 }
 body{
